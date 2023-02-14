@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "diversify",
+	"version": "1.0.0",
+	"name": "Diversify",
+	"description": "Small improvements to biome vegetation while staying true to vanilla!",
+	"authors": [
+		"Apollo"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/diversify",
+		"sources": "https://github.com/ApolloDatapacks/diversify"
+	},
+	"license": "ARR",
+	"icon": "assets/diversify/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "apollo.diversify.Diversify"
+		]
+	},
+	"accessWidener": "diversify.accesswidener",
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

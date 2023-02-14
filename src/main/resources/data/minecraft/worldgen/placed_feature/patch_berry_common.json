@@ -1,0 +1,34 @@
+{
+  "feature": "minecraft:patch_berry_bush",
+  "placement": [
+    {
+      "type": "diversify:noise_slope_count",
+      "noise_provider": {
+        "seed": 2345896,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1.75
+          ]
+        },
+        "xz_scale": 0.75
+      },
+      "noise_threshold": -0.75,
+      "slope": 20
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 200
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "feature": "minecraft:patch_taiga_grass",
+  "placement": [
+    {
+      "type": "diversify:noise_slope_count",
+      "noise_provider": {
+        "seed": 305742,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1.5
+          ]
+        },
+        "xz_scale": 0.75
+      },
+      "noise_threshold": -1.5,
+      "slope": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

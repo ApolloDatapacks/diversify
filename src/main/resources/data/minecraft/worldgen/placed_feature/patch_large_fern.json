@@ -1,0 +1,32 @@
+{
+  "feature": "minecraft:patch_large_fern",
+  "placement": [
+    {
+      "type": "diversify:noise_slope_count",
+      "noise_provider": {
+        "seed": 893246,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1
+          ]
+        },
+        "xz_scale": 0.75
+      },
+      "noise_threshold": -0.833,
+      "slope": 3
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 10
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

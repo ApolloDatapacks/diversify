@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "diversify:block_patch/coarse_dirt",
+        "placement": []
+      },
+      {
+        "feature": "diversify:block_patch/podzol",
+        "placement": []
+      },
+      {
+        "feature": "diversify:block_patch/gravel",
+        "placement": []
+      }
+    ]
+  }
+}

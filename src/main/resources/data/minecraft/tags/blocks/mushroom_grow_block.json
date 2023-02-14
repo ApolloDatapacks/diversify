@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:overworld_natural_logs",
+        "minecraft:grass_block"
+    ]
+}

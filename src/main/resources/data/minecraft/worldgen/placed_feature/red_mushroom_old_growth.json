@@ -1,0 +1,34 @@
+{
+  "feature": "minecraft:patch_red_mushroom",
+  "placement": [
+    {
+      "type": "diversify:noise_threshold_count",
+      "noise_provider": {
+        "seed": 32836209,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            2,
+            1
+          ]
+        },
+        "xz_scale": 0.75
+      },
+      "lower_threshold": -0.9,
+      "upper_threshold": 0.9,
+      "inside_bounds": 0,
+      "outside_bounds": 4
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

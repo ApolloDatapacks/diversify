@@ -1,0 +1,35 @@
+{
+  "feature": "minecraft:flower_meadow",
+  "placement": [
+    {
+      "type": "diversify:noise_slope_count",
+      "noise_provider": {
+        "seed": 934564,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1
+          ]
+        },
+        "xz_scale": 0.75
+      },
+      "noise_threshold": -1.6667,
+      "slope": 6
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

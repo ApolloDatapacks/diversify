@@ -1,0 +1,34 @@
+{
+  "feature": "minecraft:trees_windswept_hills",
+  "placement": [
+    {
+      "type": "diversify:noise_slope_count",
+      "noise_provider": {
+        "seed": -927168582,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            2
+          ]
+        },
+        "xz_scale": 0.75
+      },
+      "noise_threshold": -1.5,
+      "slope": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

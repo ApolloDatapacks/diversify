@@ -1,0 +1,54 @@
+{
+  "feature": "diversify:fallen_log/birch",
+  "placement": [
+    {
+      "type": "diversify:noise_slope_count",
+      "noise_provider": {
+        "seed": 8073654,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1
+          ]
+        },
+        "xz_scale": 0.75
+      },
+      "noise_threshold": -1.1,
+      "slope": 10
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 100
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "diversify:noise_threshold_count",
+      "noise_provider": {
+        "seed": 3957022,
+        "noise": {
+          "firstOctave": -8,
+          "amplitudes": [
+            1,
+            1.5,
+            1
+          ]
+        },
+        "xz_scale": 0.75
+      },
+      "lower_threshold": -0.25,
+      "upper_threshold": 0.25,
+      "inside_bounds": 0,
+      "outside_bounds": 1
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
